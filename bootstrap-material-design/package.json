@@ -1,0 +1,11 @@
+{
+  "name": "bootstrap-material-design",
+  "version": "1.0.0",
+  "description": "Material Design for Bootstrap Version: MDB FREE 4.19.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

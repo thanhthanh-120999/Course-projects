@@ -1,0 +1,33 @@
+.map-container-2{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container-2 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+    iframe{
+        height: 240px;
+        width:100%;
+    }
+
+.fixed-menu{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+     width: 100%;
+}
+
+.fixed-content{
+    margin-top: 100px;
+    
+}
+
+ 
+
+    
