@@ -1,0 +1,42 @@
+.map-container-2{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container-2 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+    iframe{
+        height: 240px;
+        width:100%;
+    }
+    .text{
+        width: 300px;
+        height: 55px;
+        background-color: #4285f4;
+        font-size: 25px;
+        border-radius: 12px;
+    }
+    #dataForm{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-25%, -50%);
+    }
+    body{
+        position: relative;
+    }
+    .card{
+        text-align: center;
+    }
+    .text{
+        margin: 10px 0px 10px 20px;
+        padding: 10px;
+    }

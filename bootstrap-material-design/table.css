@@ -1,0 +1,10 @@
+.fixed-menu{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+     width: 100%;
+}
+.pt-3-half {
+  padding-top: 1.4rem;
+  }
+  

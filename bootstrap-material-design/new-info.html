@@ -14,12 +14,41 @@
        <!-- Material Design Bootstrap -->
        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
        <!-- Your custom styles (optional) -->
-       <link rel="stylesheet" href="css/style.css">
+       <link rel="stylesheet" href="new-info.css">
    </head>
    <body>
        <!-- Start your project here-->
-       <div style="height: 100vh">
-           Your Code
+       <div style="height: 100vh;" >
+        
+        <div class="card" style="width: 50%;">
+            <div class="text">New Garden Information</div>
+            <div class="card-body">
+                <label class="sr-only" for="inlineFormInputGroup"></label>
+                <div class="input-group mb-2">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">Garden Name</div>
+                  </div>
+                  <input type="text" class="form-control py-0" id="inlineFormInputGroup" placeholder="Name">
+                </div>
+                <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">Location</div>
+                    </div>
+                    <input type="text" class="form-control py-0" id="inlineFormInputGroup" placeholder="Location">
+                  </div>
+                  <div id="map-container-google-2" class="z-depth-1-half map-container"
+                                    style="width: 100%;">
+                                    <iframe
+                                        src="https://maps.google.com/maps?q=chicago&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                        frameborder="0" style="border:0" allowfullscreen></iframe>
+                                </div>
+                  <span>
+                    <a href="#!" class="btn btn-primary">Close</a>
+                    <a href="#!" class="btn btn-primary">Add & Save</a>
+                  </span>
+                  
+            </div>
+          </div>
        </div>
        <!-- End your project here-->
        <!-- jQuery -->
