@@ -1,4 +1,5 @@
 .fixed-menu{
+    z-index: 2;
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -6,5 +7,17 @@
 }
 .pt-3-half {
   padding-top: 1.4rem;
+  }
+
+  table#avaiableGardens-table tr td:not(:last-child){
+    vertical-align: middle;
+  }
+
+  table#avaiableGardens-table tr td:last-child{
+    display: flex;
+  }
+
+  table#avaiableGardens-table tr td:last-child button{
+    border-radius: 20px;
   }
   

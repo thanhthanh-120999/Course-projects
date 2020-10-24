@@ -19,12 +19,15 @@
 .fixed-menu{
     overflow: hidden;
     position: fixed;
+    z-index: 2;
     top: 0;
      width: 100%;
 }
 
 .fixed-content{
     margin-top: 100px;
+    position: relative;
+    z-index: 1;
     
 }
 
